@@ -1,29 +1,4 @@
-// let input = document.querySelector("input");
-// let button= document.querySelector("button");
-// let ul=document.querySelector("ul");   
 
-// let arr=[];
-// button.addEventListener('click',function(){
-//     let obj = {
-//         task:"",
-//         isCompleted:false
-//     };
-//     let value=input.value;
-//     if(value.trim()==""){
-//         alert("please enter a valid task first");
-//     }else{
-//     console.log(value);
-//     let li = document.createElement("li");
-//     li.innerText=value;
-//     ul.appendChild(li);
-//     input.value="";
-//     //inserting into array obj
-//     obj.task = value;
-//     arr.push(obj);
-//     console.log(arr);
-//     }
-    
-// });
 let input = document.querySelector("input");
 let button= document.querySelector("button");
 let ul=document.querySelector("ul");   
@@ -92,4 +67,5 @@ function render(){
             render();
         });
     });
+
 }
